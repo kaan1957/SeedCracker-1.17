@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "seedcrackerx",
+  "version": "0.2.8",
+  "name": "Seed Cracker X",
+  "description": "Used for finding the seed of multiplayer or singleplayer worlds.",
+  "authors": [
+    "KaptainWutax",
+    "19MisterX98"
+  ],
+  "contact": {
+    "issues": "https://github.com/19MisterX98/SeedcrackerX/issues",
+    "sources": "https://github.com/19MisterX98/seedcrackerX/"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/seedcrackerx/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "kaptainwutax.seedcrackerX.SeedCracker"
+    ],
+    "modmenu": [
+      "kaptainwutax.seedcrackerX.profile.config.ScModMenuEntry"
+    ]
+  },
+  "mixins": [
+    "seedcracker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.4.0"
+  },
+  "suggests": {
+    "flamingo": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/cloth-config-fabric-5.0.34.jar"
+    },
+    {
+      "file": "META-INF/jars/MathUtils-5531c4a87b0f1bb85d1dab2bdd18ce375400626a.jar"
+    },
+    {
+      "file": "META-INF/jars/SeedUtils-b6a383113ce5d8d09a59e91b28ff064fb97c0709.jar"
+    },
+    {
+      "file": "META-INF/jars/FeatureUtils-ff97b44038b0410cef83cd813b4569ef4a5e4d03.jar"
+    },
+    {
+      "file": "META-INF/jars/BiomeUtils-b1e661d93f5262d747d7f92642bd8b20211d2fd8.jar"
+    },
+    {
+      "file": "META-INF/jars/ChunkRandomReversal-6b76fb5cf2cd438de56e6a46cea2a83985831834.jar"
+    },
+    {
+      "file": "META-INF/jars/LattiCG-ec805b20bda95ead23216ab249a5ef5b8587e9e9.jar"
+    },
+    {
+      "file": "META-INF/jars/MCUtils-13009755237551c6148cdbda87e8d924c5bfc1ef.jar"
+    },
+    {
+      "file": "META-INF/jars/TerrainUtils-322c2405600be7e87ded65f7bc6f2c4f042a5472.jar"
+    },
+    {
+      "file": "META-INF/jars/NoiseUtils-288e1b60e0f427bead80f001d19565ad1adcbd73.jar"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "mappings": {
+    "kaptainwutax/seedcrackerX/mixin/GameRendererMixin": {
+      "Lnet/minecraft/util/profiler/Profiler;swap(Ljava/lang/String;)V": "Lnet/minecraft/class_3695;method_15405(Ljava/lang/String;)V",
+      "renderWorld": "Lnet/minecraft/class_757;method_3188(FJLnet/minecraft/class_4587;)V"
+    },
+    "kaptainwutax/seedcrackerX/mixin/ClientPlayNetworkHandlerMixin": {
+      "onPlayerRespawn": "Lnet/minecraft/class_634;method_11117(Lnet/minecraft/class_2724;)V",
+      "onChunkData": "Lnet/minecraft/class_634;method_11128(Lnet/minecraft/class_2672;)V",
+      "onGameJoin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+      "onCommandTree": "Lnet/minecraft/class_634;method_11145(Lnet/minecraft/class_2641;)V"
+    },
+    "kaptainwutax/seedcrackerX/mixin/ClientWorldMixin": {
+      "disconnect": "Lnet/minecraft/class_638;method_8525()V",
+      "getGeneratorStoredBiome": "Lnet/minecraft/class_638;method_22387(III)Lnet/minecraft/class_1959;"
+    },
+    "kaptainwutax/seedcrackerX/mixin/ClientPlayerEntityMixin": {
+      "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V",
+      "tick": "Lnet/minecraft/class_746;method_5773()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "kaptainwutax/seedcrackerX/mixin/GameRendererMixin": {
+        "Lnet/minecraft/util/profiler/Profiler;swap(Ljava/lang/String;)V": "Lnet/minecraft/class_3695;method_15405(Ljava/lang/String;)V",
+        "renderWorld": "Lnet/minecraft/class_757;method_3188(FJLnet/minecraft/class_4587;)V"
+      },
+      "kaptainwutax/seedcrackerX/mixin/ClientPlayNetworkHandlerMixin": {
+        "onPlayerRespawn": "Lnet/minecraft/class_634;method_11117(Lnet/minecraft/class_2724;)V",
+        "onChunkData": "Lnet/minecraft/class_634;method_11128(Lnet/minecraft/class_2672;)V",
+        "onGameJoin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+        "onCommandTree": "Lnet/minecraft/class_634;method_11145(Lnet/minecraft/class_2641;)V"
+      },
+      "kaptainwutax/seedcrackerX/mixin/ClientWorldMixin": {
+        "disconnect": "Lnet/minecraft/class_638;method_8525()V",
+        "getGeneratorStoredBiome": "Lnet/minecraft/class_638;method_22387(III)Lnet/minecraft/class_1959;"
+      },
+      "kaptainwutax/seedcrackerX/mixin/ClientPlayerEntityMixin": {
+        "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V",
+        "tick": "Lnet/minecraft/class_746;method_5773()V"
+      }
+    }
+  }
+}
