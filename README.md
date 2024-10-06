@@ -12,12 +12,15 @@ SeedCracker mod was originally made by KaptainWutax but you couldn't use this mo
 
 # Requirements
 ```
- Fabric API
- Latest Minecraft Version (1.17)
+ + Fabric API
+ + Latest Minecraft Version (1.17)
 ```
 
 # Commands 
-**/seed cracker ON/OFF**
-**/seed cracker reload**
+```
+  + /seed cracker ON // turns on the seedcracker
+  + /seed cracker OFF // turns off the seedcracker
+  + /seed data bits // Allows the user to see how many bits of information has been collected to maximize the seed approximation
+ ```
 
 
