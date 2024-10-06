@@ -1,6 +1,6 @@
 ## !! WARNING !! ##
 
-**Do not download this mod, since KaptainWutax released another Seed Cracker for 1.17 clients. This is useless now. If you want to download it, there's no one stopping you. But I highly recommend you to download the new updated version from KaptainWutax's github.**
+**You don't need to download this mod anymore since KaptainWutax has already released another Seed Cracker for the 1.17 update. This is pretty much useless now (maybe I'll update the mod in future versions of minecraft). Sure, If you still want to download it there's nothing stopping you, but I highly recommend just going over to KaptainWutax's github page and downloading it from there.**
 
 ####################
 
@@ -8,10 +8,13 @@
 
 
 # SeedCracker-1.17
-This seedcracker was actually made by KaptainWutax, I just did some changes on it and made it so we can use it on 1.17. I might add some new features to it.
+SeedCracker mod was originally made by KaptainWutax but you couldn't use this mod on 1.17 so I applied some changes to it and got it working. 
 
 # Requirements
-You only need **Fabric API** to use this mod.
+```
+ Fabric API
+ Latest Minecraft Version (1.17)
+```
 
 # Commands 
 **/seed cracker ON/OFF**
